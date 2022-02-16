@@ -1,6 +1,6 @@
 # Prime Number Finder
 
-ef prime_finder(n): 
+def prime_finder(n): 
   primes = []
   for i in range (2, n+1):
       for j in range(2, i):
